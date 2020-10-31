@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ServerTcp\ServerTcpLibrary.csproj">
+      <Project>{a1b135c0-8f6f-4680-b7af-3739963259bf}</Project>
+      <Name>ServerTcpLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
